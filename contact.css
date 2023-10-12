@@ -402,7 +402,7 @@ h3{
     width: 100%;
 }
 .form-inputs{
-    display: grid;
+    display: flex;
     gap: 10px;
     width: 100%;
 }
@@ -444,7 +444,7 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
-    margin-top: 60%;
+    margin-top: 8%;
 }
 footer span a{
     color: c#005eff;

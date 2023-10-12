@@ -6,7 +6,7 @@
     <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subs.css">
     <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>PT LDSI</title>
@@ -16,33 +16,39 @@
     <!-- --------------- HEADER --------------- -->
     <nav id="header">
         <div class="nav-logo">
-            <img src="gambar/logo_ldsi-png.png" alt="" height="50px">
+            <img class="imglogo" src="gambar/logo_ldsi-png.png" alt="" height="50">
         </div>
-        <!-- Mobile Menu Button -->
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="toggleMobileMenu()"></i>
-        </div>
-        <!-- Mobile Navigation Menu -->
-        <div class="mobile-menu" id="mobileNavMenu">
+        <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
-                    <a href="index.html" class="nav-link active-link">Home</a>
+                    <a href="index.html" class="nav-link">Home</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Products.html" class="nav-link">Products & Services</a>
+                    <a href="Products.html" class="nav-link">Products</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Subscribe.html" class="nav-link">Products Subscription</a>
+                    <a href="Subscribe.html" class="nav-link">Subscribe</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation.html" class="nav-link">Financial Consultation</a>
+                    <a href="Consultation.html" class="nav-link active-link">Consultation</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
                     <a href="Contact.html" class="nav-link">Contact</a>
+                    <div class="circle"></div>
                 </li>
             </ul>
         </div>
-    </nav>
+        <!-- <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div> -->
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
        <!-- -------------- FEATURED BOX ---------------- -->
@@ -55,56 +61,29 @@
             <h1>Financial Consultation</h1>
             <span>Register to Participate in Our Financial Consultation</span>
           </div>
-             <div class="col">
-                <div class="form-control">
-                    <form action="https://formspree.io/f/mnqkovpa" method="POST" >
-                        <div class="form-inputs">
-                            <input type="text" class="input-field" placeholder="Name" name="name" required>
-                            <input type="text" class="input-field" placeholder="Email" name="email" required>
-                            <input type="text" class="input-field" name="phone" placeholder="Phone Number (WhatsApp)" required>
-                            <br/>
-                        </div>
-                        <div class="text-area">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-button">
-                            <button class="btn">Send <i class="uil uil-message"></i></button>
-                        </div>
-                    </form>
+          <div class="col">
+            <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" name="name" required>
+                  <input type="text" class="input-field" placeholder="Email" name="email" required>
+                  <input type="text" class="input-field" name="phone" placeholder="Phone Number (WhatsApp)" required>
                 </div>
-             </div>
+                
+                <div class="form-button">
+                    <button class="btn">Send <i class="uil uil-message"></i></button>
+                </div>
+            </div>
+         </div>
           </div>
        </section>
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer>
         <div class="top-footer">
-            <p>John Doe .</p>
-        </div>
-        <div class="middle-footer">
-            <ul class="footer-menu">
-                <li class="footer_menu_list">
-                    <a href="#home">Home</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#about">About</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-social-icons">
-            <div class="icon"><i class="uil uil-instagram"></i></div>
-            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-            <div class="icon"><i class="uil uil-dribbble"></i></div>
-            <div class="icon"><i class="uil uil-github-alt"></i></div>
+            <p>PT Layanan Data dan Solusi Indonesia </p>
         </div>
         <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+            <p>2023 - Copyright <a href="#home" style="text-decoration: none;"></a>All rights reserved</p>
         </div>
     </footer>
     </div>

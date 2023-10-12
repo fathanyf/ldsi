@@ -16,33 +16,39 @@
     <!-- --------------- HEADER --------------- -->
     <nav id="header">
         <div class="nav-logo">
-            <img src="gambar/logo_ldsi-png.png" alt="" height="50px">
+            <img class="imglogo" src="gambar/logo_ldsi-png.png" alt="" height="50">
         </div>
-        <!-- Mobile Menu Button -->
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="toggleMobileMenu()"></i>
-        </div>
-        <!-- Mobile Navigation Menu -->
-        <div class="mobile-menu" id="mobileNavMenu">
+        <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
                     <a href="index.html" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Products.html" class="nav-link">Products & Services</a>
+                    <a href="Products.html" class="nav-link">Products</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Subscribe.html" class="nav-link">Products Subscription</a>
+                    <a href="Subscribe.html" class="nav-link">Subscribe</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation.html" class="nav-link">Financial Consultation</a>
+                    <a href="Consultation.html" class="nav-link">Consultation</a>
+                    <div class="circle"></div>
                 </li>
                 <li class="nav_list">
                     <a href="Contact.html" class="nav-link">Contact</a>
+                    <div class="circle"></div>
                 </li>
             </ul>
         </div>
-    </nav>
+        <!-- <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div> -->
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
        <!-- -------------- FEATURED BOX ---------------- -->
@@ -198,12 +204,7 @@
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer>
-        <div class="top-footer">
-            <p>PT Data Services Indonesia </p>
-        </div>
-        <div class="bottom-footer">
-            <p>2023 - Copyright <a href="#home" style="text-decoration: none;"></a>All rights reserved</p>
-        </div>
+        <span>PT Layanan Data Solusi Indonesia | <span class="far fa-copyright"></span> 2023 All Rights Reserved</span>
     </footer>
     </div>
     <!-- ----- TYPING JS Link ----- -->
