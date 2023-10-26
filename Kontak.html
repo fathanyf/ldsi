@@ -6,7 +6,7 @@
     <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="subs.css">
+    <link rel="stylesheet" href="contact.css">
     <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>PT LDSI</title>
@@ -21,69 +21,79 @@
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="Beranda.html" class="nav-link">Home</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Products.html" class="nav-link">Products</a>
+                    <a href="Produk.html" class="nav-link">Products</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Subscribe.html" class="nav-link">Subscribe</a>
+                    <a href="Langganan.html" class="nav-link">Subscribe</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation.html" class="nav-link active-link">Consultation</a>
+                    <a href="Konsultasi.html" class="nav-link">Consultation</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Contact.html" class="nav-link">Contact</a>
+                    <a href="Kontak.html" class="nav-link active-link">Contact</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Konsultasi.html" class="nav-link"><img src="gambar/indonesia-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
+                    <a href="Contact.html" class="nav-link"><img src="gambar/indonesia-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation-cn.html" class="nav-link"><img src="gambar/china-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
+                    <a href="Contact-cn.html" class="nav-link"><img src="gambar/china-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
                     <div class="circle"></div>
                 </li>
             </ul>
         </div>
-        <!-- <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div> -->
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
       </nav>
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
-       <!-- -------------- ABOUT BOX ---------------- -->
-       <!-- -------------- PROJECT BOX ---------------- -->
-
-       <!-- -------------- CONTACT BOX ---------------- -->
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Financial Consultation</h1>
-            <span>Register to Participate in Our Financial Consultation</span>
-          </div>
-          <div class="col">
-            <div class="form-control">
-                <div class="form-inputs">
-                  <input type="text" class="input-field" placeholder="Name" name="name" required>
-                  <input type="text" class="input-field" placeholder="Email" name="email" required>
-                  <input type="text" class="input-field" name="phone" placeholder="Phone Number (WhatsApp)" required>
-                </div>
-                
-                <div class="form-button">
-                    <button class="btn">Send <i class="uil uil-message"></i></button>
-                </div>
+        <section class="section" id="contact">
+            <div class="top-header">
+              <h1>Kontak Kami</h1>
             </div>
-         </div>
-          </div>
-       </section>
+            <div class="row">
+               <div class="col">
+                <div class="cardContainer">
+                    <div class="card">
+                        <h2>Alamat</h2>
+                        <p>Gadung Ranuza, Lantai 3
+                            Jl. Timor No. 10, Menteng - Jakarta 10350</p>
+                        <h2>Email:</h2>
+                        <p>data.services.indonesia@gmail.com</p>
+                        <h2>Telepon:</h2>
+                        <p>+62-21-315 3404</p>
+                    </div> 
+                </div>
+               </div>
+               <div class="col">
+                <div class="form-control">
+                    <form action="https://formspree.io/f/mnqkovpa" method="POST" >
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Nama" name="name" required>
+                            <input type="text" class="input-field" placeholder="Email" name="email" required>
+                            <input type="text" class="input-field" name="phone" placeholder="No. telepon (WhatsApp)" required>
+                            <br/>
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Tulis Pesan Anda"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+               </div>
+            </div>
+         </section>
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer>

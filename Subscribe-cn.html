@@ -6,7 +6,7 @@
     <!-- --------- UNICONS ---------- -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="subs.css">
+    <link rel="stylesheet" href="contact.css">
     <!-- --------- FAVICON ---------- -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <title>PT LDSI</title>
@@ -21,69 +21,66 @@
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="home-cn.html" class="nav-link">首页</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Products.html" class="nav-link">Products</a>
+                    <a href="Products-cn.html" class="nav-link">产品与服务</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Subscribe.html" class="nav-link">Subscribe</a>
+                    <a href="Subscribe-cn.html" class="nav-link active-link">产品定阅</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation.html" class="nav-link active-link">Consultation</a>
+                    <a href="Consultation-cn.html" class="nav-link">财务劝告</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Contact.html" class="nav-link">Contact</a>
+                    <a href="Contact-cn.html" class="nav-link">联系</a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Konsultasi.html" class="nav-link"><img src="gambar/indonesia-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
+                    <a href="index.html" class="nav-link"><img src="gambar/united-kingdom-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
-                    <a href="Consultation-cn.html" class="nav-link"><img src="gambar/china-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
+                    <a href="Beranda.html" class="nav-link"><img src="gambar/indonesia-flag-icon.png" alt="" height="31px" style=" margin-bottom: -10%;"></a>
                     <div class="circle"></div>
                 </li>
             </ul>
         </div>
-        <!-- <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div> -->
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
       </nav>
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
-       <!-- -------------- ABOUT BOX ---------------- -->
-       <!-- -------------- PROJECT BOX ---------------- -->
-
-       <!-- -------------- CONTACT BOX ---------------- -->
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Financial Consultation</h1>
-            <span>Register to Participate in Our Financial Consultation</span>
-          </div>
-          <div class="col">
-            <div class="form-control">
-                <div class="form-inputs">
-                  <input type="text" class="input-field" placeholder="Name" name="name" required>
-                  <input type="text" class="input-field" placeholder="Email" name="email" required>
-                  <input type="text" class="input-field" name="phone" placeholder="Phone Number (WhatsApp)" required>
-                </div>
-                
-                <div class="form-button">
-                    <button class="btn">Send <i class="uil uil-message"></i></button>
-                </div>
+        <section class="section" id="contact">
+            <div class="top-header">
+              <h1>报名产品定阅</h1>
             </div>
-         </div>
-          </div>
-       </section>
+            <div class="row">
+               <div class="col">
+                <div class="form-control">
+                    <form action="https://formspree.io/f/mnqkovpa" method="POST" >
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="名字" name="name" required>
+                            <input type="text" class="input-field" placeholder="电邮" name="email" required>
+                            <input type="text" class="input-field" name="phone" placeholder="电话" required>
+                            <br/>
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="学留言"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">学留言<i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+               </div>
+            </div>
+         </section>
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer>
